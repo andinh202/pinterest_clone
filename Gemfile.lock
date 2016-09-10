@@ -65,6 +65,8 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    masonry-rails (0.2.4)
+      railties
     mime-types (1.25.1)
     mimemagic (0.3.0)
     minitest (5.9.0)
@@ -143,14 +145,15 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 3.2.0.2)
-  cocaine (~> 0.5.8)
+  cocaine (~> 0.5.5)
   coffee-rails (~> 4.0.0)
   coffee-script-source (= 1.8.0)
   devise (~> 3.3.0)
   haml (~> 4.0.5)
   jbuilder (~> 2.0)
   jquery-rails
-  paperclip (~> 4.3, >= 4.3.6)
+  masonry-rails (~> 0.2.1)
+  paperclip (>= 4.3.6)
   rails (= 4.1.5)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
