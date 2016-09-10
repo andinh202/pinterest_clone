@@ -28,6 +28,8 @@ gem 'bootstrap-sass', '~> 3.2.0.2'
 gem 'simple_form', '~> 3.0.2'
 gem 'coffee-script-source', '1.8.0'
 gem 'devise', '~> 3.3.0'
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'cocaine', '~> 0.5.8'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
